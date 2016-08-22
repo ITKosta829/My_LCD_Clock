@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/clock_color"
+        android:title="Clock Color" />
+    <item android:id="@+id/background_color"
+        android:title="Background Color" />
+    <item android:id="@+id/time_settings"
+        android:title="Time Settings" />
+
+
+</menu>

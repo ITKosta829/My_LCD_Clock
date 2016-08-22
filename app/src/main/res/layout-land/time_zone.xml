@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/divider2"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/TZHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_zone"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TZSpinner"
+        android:layout_below="@+id/TZHeader"
+        android:layout_marginTop="20dp"
+        android:entries="@array/time_zone"
+        android:layout_alignStart="@+id/TZHeader"
+        android:layout_alignEnd="@+id/TZHeader"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/Military_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clock_mode"
+        android:textStyle="bold"
+        android:layout_above="@+id/TZSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m_switch"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/Military_btn"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/Military_btn"
+        android:layout_alignEnd="@+id/Military_btn"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main"
+        android:id="@+id/main"
+        android:onClick="goToMain"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

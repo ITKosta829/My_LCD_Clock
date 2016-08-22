@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/seg_a"
+        android:background="#C10000" />
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seg_b"
+        android:background="#C10000"
+        android:layout_alignBottom="@+id/seg_g"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seg_c"
+        android:background="#C10000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/seg_g" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/seg_d"
+        android:background="#C10000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/seg_b" />
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seg_e"
+        android:background="#C10000"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/seg_g" />
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seg_f"
+        android:background="#C10000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/seg_g" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/seg_g"
+        android:background="#C10000"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/seg_b" />
+
+</RelativeLayout>
